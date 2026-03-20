@@ -1,9 +1,13 @@
 ﻿
 //klasa do zaprezentowania jednego zadania
 
-    class TaskItem
+
+namespace Bot_v1.Models
+{
+
+    public class TaskItem
     {
         public string Title;
         public bool IsCompleted;
     }
-
+}
