@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Bot_v1.Test/Bot_v1.Test.csproj" Id="d4bf4014-d41f-45cd-b215-393faa83afe9" />
   <Project Path="Bot_v1/Bot_v1.csproj" />
 </Solution>

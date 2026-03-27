@@ -13,6 +13,7 @@ namespace Bot_v1.Core
 
         private List<IBotCommand> _commands;
         private bool _isRunning;
+        public bool IsRunning => _isRunning;
 
         public BotEngine()
         {
