@@ -12,6 +12,10 @@ class Program
         bot.RegisterCommand(new ShowTasksCommand());
         bot.RegisterCommand(new ExitCommand());
 
+        bot.RegisterCommand (new SaveTasksCommand());
+        bot.RegisterCommand(new LoadTasksCommand());
+        bot.RegisterCommand( new ReportCommand());
+
         bot.Start();
     }
 }
